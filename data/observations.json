@@ -1,0 +1,46 @@
+{
+  "coverage": {
+    "window": "09:45-12:00",
+    "sampled_gates": [
+      "east",
+      "hall"
+    ],
+    "sample_fraction": 0.6
+  },
+  "counts": [
+    {
+      "space_id": "courtyard",
+      "bucket": "10:00",
+      "count": 42,
+      "source": "gate-east"
+    },
+    {
+      "space_id": "gallery",
+      "bucket": "10:30",
+      "count": 31,
+      "source": "manual-sample"
+    },
+    {
+      "space_id": "hall",
+      "bucket": "11:15",
+      "count": 48,
+      "source": "gate-hall"
+    }
+  ],
+  "transitions": [
+    {
+      "from": "courtyard",
+      "to": "gallery",
+      "bucket": "10:15",
+      "count": 12,
+      "sampled": true
+    },
+    {
+      "from": "gallery",
+      "to": "hall",
+      "bucket": "10:55",
+      "count": 9,
+      "sampled": true
+    }
+  ]
+}

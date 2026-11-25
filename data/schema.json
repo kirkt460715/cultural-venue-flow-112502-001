@@ -1,0 +1,18 @@
+{
+  "event": "synthetic-venue-flow-v1",
+  "description": "活动、空间、观测批次和排期修订的本地合成样例。",
+  "files": {
+    "schedule.json": [
+      "revision",
+      "sessions"
+    ],
+    "observations.json": [
+      "coverage",
+      "counts",
+      "transitions"
+    ],
+    "spaces.json": [
+      "spaces"
+    ]
+  }
+}

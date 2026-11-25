@@ -1,0 +1,19 @@
+{
+  "spaces": [
+    {
+      "space_id": "courtyard",
+      "capacity": 70,
+      "closed": false
+    },
+    {
+      "space_id": "gallery",
+      "capacity": 45,
+      "closed": false
+    },
+    {
+      "space_id": "hall",
+      "capacity": 90,
+      "closed": false
+    }
+  ]
+}
